@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* bootstrap settings */
+.text-light{
+    color: #fff!important;
+}
+
+.form-control {
+   
+    color: #495057;
+    background-color: #fff;
+
+    border: 1px solid var(--primary-color)!important;
+    border-radius:2px !important;
+    
+  }
+  .form-control:focus {
+   
+    box-shadow:none!important;
+  }
+  .form-group{
+      position: relative;
+
+  }
+  .form-group .fa{
+      position: absolute;
+      top:30%;
+      left:2%;
+
+   
+  }
+  .current{
+   
+      background:var(--secondary-color);
+      color:var(--primary-color)!important;
+      font-weight: bold;
+  }
+  .btn-light{
+      background-color: #fff!important;
+  }
+/* bootstrap settings */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand{
+    font-family: monospace;
+}
+/* site color */
+:root{
+    --primary-color:#070129;
+    --secondary-color:rgb(248, 248, 248);
+
+}
+.site-primary-color{
+    color:var(--primary-color)!important
+}
+.site-bg-color{
+    background-color: var(--primary-color)!important;
+}
+.bg-secondary-color{
+    background: var(--secondary-color);
+}
+
+/* site color */
+
+::-webkit-scrollbar{
+    display: none;
+}
+/* landing-page */
+#landing{
+    position: relative;
+    overflow: hidden;
+}
+#landing .title{
+    position: absolute;
+    top:20%;
+    left:10%;
+    width: 50%;
+    color:#fff
+}
+#landing img{
+width: 100%;
+height: 50%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.movie-title{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: monospace;
+}
+.movie-release-date{
+    font-size: 1rem;
+    font-family: monospace;
+    font-style: italic;
+}
+#categories ul li{
+    font-weight: bold;
+}
+#categories ul li:hover{
+cursor: pointer;
+}
+.current2{
+    padding:1.8px;
+    background:var(--secondary-color);
+    color:var(--primary-color)!important;
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* movie-card */
+.card{
+    width: 250px;
+    height: 350px;
+position: relative;
+overflow: hidden;
+cursor: pointer;
+transition: 1s ease-in-out;
+}
+.card img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    
+}
+.movie-card-title{
+    position:absolute;
+    background:var(--primary-color);
+    color: #fff;
+    bottom: -100%;
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius:30px;
+    border-color: #fff;
+    border-top:3px solid #fff;
+    padding: 10px;
+    transition: 1s ease-in-out;
+}
+.card:hover .movie-card-title{
+    bottom: 0%;
+}
+
+.movie-card-title .btn{
+    animation: movingText;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingText {
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(20%);
+    }
+}

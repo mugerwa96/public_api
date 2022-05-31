@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"bat man",
+        "release_date":"2020-23-2",
+        "image":"images/squid.jpg",
+        "description":"lorem is ksdsdk dndenkdnsd dneidjide fkfnfeff fedfjofj ffjfjfijfdf  finff ",
+        "language":"en",
+        "likes":{
+            "popular":true,
+            "adult":false
+        }
+        
+    },
+    {
+        "id":2,
+        "title":"spider man",
+        "release_date":"2022-23-2",
+        "image":"images/spiderman.jpg",
+        "description":"lorem is ksdsdk dndenkdnsd dneidjide fkfnfeff fedfjofj ffjfjfijfdf  finff ",
+        "language":"lag",
+        "likes":{
+            "popular":false,
+            "adult":false
+        }
+    },
+    {
+        "id":3,
+        "title":"king",
+        "release_date":"2022-3-2",
+        "image":"images/king.jpg",
+        "description":"lorem is ksdsdk dndenkdnsd dneidjide fkfnfeff fedfjofj ffjfjfijfdf  finff ",
+        "language":"lag",
+        "likes":{
+            "popular":true,
+            "adult":false
+        }
+    }
+]
